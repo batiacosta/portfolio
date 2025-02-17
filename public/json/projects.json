@@ -1,39 +1,54 @@
 [
     {
         "title": {
-            "English": "Project",
-            "Español": "Proyecto"
+            "English": "Zeitreise Niederburg",
+            "Español": "Zeitreise Niederburg"
         },
         "media": [
             {
-                "type": "image",
-                "src": "/images/profile.jpg",
+                "type": "youtube",
+                "src": "https://www.youtube.com/embed/aCjdCvAwrUc?si=M39AIxzYCR_-uTob",
                 "alt": "Project"
             },
             {
-                "type": "youtube",
-                "src": "https://www.youtube.com/embed/bARrOv48ZSQ?si=Y46qyTxqfWHWeWut",
-                "alt": "Project"
+                "type": "image",
+                "src": "/images/projects/mandarscheid/mandarscheid-1.png",
+                "alt": "mandarscheid"
+            },
+            {
+                "type": "image",
+                "src": "/images/projects/mandarscheid/mandarscheid-2.png",
+                "alt": "mandarscheid"
             }
         ],
         "description": {
-            "English": "Description",
-            "Español": "Descripción"
+            "English": "Zeitreise Niederburg is an AR experience that takes you back in time to the medieval village of Manderscheid. The project was developed in collaboration with the Manderscheid Castle and the local community. \n\nAs part of ZAUBAR team, I was responsible for developing and maintaining the AR Application, creating mini-games, adding new features, and fixing bugs. The project was developed using Unity Engine, AR Foundation, C#, among other technologies.",
+            "Español": "Zeitreise Niederburg es una experiencia de AR que te lleva de vuelta en el tiempo al pueblo medieval de Manderscheid. El proyecto fue desarrollado en colaboración con el Castillo de Manderscheid y la comunidad local. \n\nComo parte del equipo ZAUBAR, fui responsable de desarrollar y mantener la aplicación de AR, crear mini-juegos, agregar nuevas características y corregir errores. El proyecto fue desarrollado utilizando Unity Engine, AR Foundation, C#, entre otras tecnologías."
         },
         "summary": {
-            "English": "Summary...",
-            "Español": "Resumen..."
+            "English": "Zeitreise Niederburg is an AR experience that transports users to medieval Manderscheid. Developed with Manderscheid Castle, I contributed to the AR app's development, mini-games, features, and bug fixes using Unity, AR Foundation, and C#.",
+            "Español": "Zeitreise Niederburg es una experiencia de AR que transporta a los usuarios a la Manderscheid medieval. Desarrollado con el Castillo de Manderscheid, contribuí al desarrollo de la app de AR, mini-juegos, características y corrección de errores usando Unity, AR Foundation y C#."
         },
         "links":[
             {
-                "type": "github",
-                "src": "",
-                "platform": "github"
+                "type": "other",
+                "src": "https://about.zaubar.com/en/solutions/tourism",
+                "platform": "Project website"
+            },
+            {
+                "type": "android",
+                "src": "https://play.google.com/store/apps/details?id=com.zaubar.mandarscheid&hl=de",
+                "platform": "Android"
+            },
+            {
+                "type": "apple",
+                "src": "https://apps.apple.com/de/app/zeitreise-niederburg/id6443941752?platform=iphone",
+                "platform": "iOS"
             }
         ],
         "tags": {
-            "English": ["tag1", "tag2", "tag3"],
-            "Español": ["etiqueta1", "etiqueta2", "etiqueta3"]
+            "English": ["Published", "AR", "Unity", "C#", "AR Foundation", "Contribution"],
+            "Español": ["Publicado", "AR", "Unity", "C#", "AR Foundation", "Contribución"]
         }
     },
     {
@@ -44,33 +59,43 @@
         "media": [
             {
                 "type": "image",
-                "src": "/images/profile.jpg",
-                "alt": "Project"
+                "src": "/images/projects/freibuddy/freibuddy-1.png",
+                "alt": "Freibuddy"
             },
             {
-                "type": "youtube",
-                "src": "https://www.youtube.com/embed/QOC3iEEdbyo?si=3gJKw6MhvdGsXAzf",
-                "alt": "Project"
+                "type": "image",
+                "src": "/images/projects/freibuddy/freibuddy-2.png",
+                "alt": "Freibuddy"
+            },
+            {
+                "type": "image",
+                "src": "/images/projects/freibuddy/freibuddy-3.png",
+                "alt": "Freibuddy"
             }
         ],
         "description": {
-            "English": "Description",
-            "Español": "Descripción"
+            "English": "As part of the development team at ZAUBAR for the \"FreiBuddy\" app, I played a key role in enhancing the user experience by implementing accessibility features, while also making game adjustments, fixing bugs, and adding media and behaviors. \n\nThis AR-Serious Game, developed in collaboration with the Documentation Centre for National Socialism (DZNS) of the Freiburg Municipal Museums, offers three interactive augmented reality (AR) routes that provide insights into the past and present of Jewish life in Freiburg. My contributions ensured that the app was accessible and user friendly.\n\nThe \"FreiBuddy\" app invites players to explore the city of Freiburg through the eyes of fictitious guests, engaging in dialogues and small tasks to learn about Jewish life in a playful and educational manner. The app, which can be used on-site in Freiburg city centre, is designed to be used in groups, fostering discussion and deeper understanding. This participatory project, funded by the Foundation \"Remembrance, Responsibility, Future\" and the Baden-Württemberg State Centre for Political Education, showcases my ability to deliver high-quality, impactful AR experiences.",
+            "Español": "Como parte del equipo de desarrollo en ZAUBAR para la aplicación \"FreiBuddy\", desempeñé un papel clave en la mejora de la experiencia del usuario mediante la implementación de funciones de accesibilidad, al tiempo que realizaba ajustes en el juego, corregía errores y añadía medios y comportamientos. \n\nEste AR-Serious Game, desarrollado en colaboración con el Centro de Documentación del Nacionalsocialismo (DZNS) de los Museos Municipales de Friburgo, ofrece tres rutas interactivas de realidad aumentada (AR) que proporcionan información sobre el pasado y el presente de la vida judía en Friburgo. Mis contribuciones aseguraron que la aplicación fuera accesible y fácil de usar.\n\nLa aplicación \"FreiBuddy\" invita a los jugadores a explorar la ciudad de Friburgo a través de los ojos de huéspedes ficticios, participando en diálogos y pequeñas tareas para aprender sobre la vida judía de una manera lúdica y educativa. La aplicación, que se puede utilizar en el centro de la ciudad de Friburgo, está diseñada para ser utilizada en grupos, fomentando la discusión y el entendimiento más profundo. Este proyecto participativo, financiado por la Fundación \"Recuerdo, Responsabilidad, Futuro\" y el Centro Estatal de Educación Política de Baden-Wurtemberg, muestra mi capacidad para ofrecer experiencias de AR de alta calidad e impacto."
         },
         "summary": {
-            "English": "Summary...",
-            "Español": "Resumen..."
+            "English": "I enhanced the \"FreiBuddy\" AR app by implementing accessibility features, game adjustments, bug fixes, and adding media. The app educates users about Jewish life in Freiburg through interactive AR routes.",
+            "Español": "Mejoré la aplicación AR \"FreiBuddy\" mediante la implementación de funciones de accesibilidad, ajustes en el juego, corrección de errores y añadiendo medios. La aplicación educa a los usuarios sobre la vida judía en Friburgo a través de rutas AR interactivas."
         },
         "links":[
             {
-                "type": "github",
-                "src": "",
-                "platform": "github"
+                "type": "android",
+                "src": "https://play.google.com/store/apps/details?id=com.zaubar.freiburg&hl=en",
+                "platform": "Android"
+            },
+            {
+                "type": "apple",
+                "src": "https://apps.apple.com/de/app/freibuddy/id6447895903",
+                "platform": "iOS"
             }
         ],
         "tags": {
-            "English": ["tag1", "tag2", "tag3"],
-            "Español": ["etiqueta1", "etiqueta2", "etiqueta3"]
+            "English": ["Published", "AR", "Unity", "C#", "AR Foundation", "Contribution"],
+            "Español": ["Publicado", "AR", "Unity", "C#", "AR Foundation", "Contribución"]
         }
     }
 ]

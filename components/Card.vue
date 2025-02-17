@@ -17,12 +17,14 @@
             <template #header>{{ project.title }}</template>
             <template #body>
                 <Carousel :media="project.media" />
-                <p class="text-gray-700 text-base mt-4">{{ project.description }}</p>
+                <div class="text-gray-700 text-base mt-4 text-justify">
+                    <p v-for="(paragraph, index) in project.description.split('\n\n')" :key="index">{{ paragraph }}</p>
+                </div>
                 <div class="mt-4">
                     <div v-for="(link, index) in project.links" :key="index" class="flex items-center space-x-2">
-                        <img :src="getIcon(link.type)" alt="icon" class="w-6 h-6">
-                        <a :href="link.src" target="_blank" class="text-blue-500 hover:underline">{{ link.src }}</a>
-                        <span v-if="link.platform" class="text-gray-500">({{ link.platform }})</span>
+                        <img :src="getIcon(link.type)" alt="icon" class="w-6 h-6 filter-orange">
+                        <span v-if="link.platform" class="text-gray-500">{{ link.platform }}</span>
+                        <a :href="link.src" target="_blank" class="text-orange-400 hover:underline">Link</a>
                     </div>
                 </div>
             </template>
@@ -67,3 +69,9 @@ export default {
     }
 }
 </script>
+
+<style scoped>
+.filter-orange {
+    filter: invert(48%) sepia(95%) saturate(0%) hue-rotate(1deg) brightness(100%) contrast(101%);
+}
+</style>

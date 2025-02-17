@@ -2,7 +2,9 @@
     <div class="fixed inset-0 bg-gray-800 bg-opacity-75 flex items-center justify-center z-50">
         <div class="bg-white rounded-lg overflow-hidden shadow-xl transform transition-all sm:max-w-2xl sm:w-full">
             <header class="bg-gray-100 px-4 py-3 border-b border-gray-200 flex justify-between items-center">
-                <slot name="header"> This is the default title! </slot>
+                <h2 class="text-xl font-bold text-gray-900">
+                    <slot name="header"> This is the default title! </slot>
+                </h2>
                 <button type="button" class="text-gray-500 hover:text-gray-700" @click="close">
                     &times;
                 </button>
@@ -11,8 +13,6 @@
             <section class="px-4 py-5">
                 <slot name="body"> This is the default body! </slot>
             </section>
-
-            
         </div>
     </div>
 </template>

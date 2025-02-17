@@ -34,7 +34,7 @@
 import Header from "./components/Header.vue";
 import RoundedPicture from "./components/RoundedPicture.vue";
 import Card from "./components/Card.vue";
-import TypingEffect from './components/TypingEffect.vue';
+import TypingEffect from './components/TypingEffect.vue'
 
 export default {
     name: "App",
@@ -59,9 +59,18 @@ export default {
         }
     },
     created() {
+        this.detectLanguage();
         this.loadContent();
     },
     methods: {
+        detectLanguage() {
+            const userLang = navigator.language || navigator.userLanguage;
+            if (userLang.startsWith('es')) {
+                this.language = 'Español';
+            } else {
+                this.language = 'English';
+            }
+        },
         setLanguage(language) {
             console.log(`Selected language is ${language}`);
             this.language = language;

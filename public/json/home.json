@@ -10,6 +10,10 @@
         },
         {
             "language": "English",
+            "content": "Unity Developer"
+        },
+        {
+            "language": "English",
             "content": "Game Developer"
         },
         {
@@ -31,6 +35,10 @@
         {
             "language": "Español",
             "content": "Entusiasta de XR"
+        },
+        {
+            "language": "English",
+            "content": "Desarrollador Unity"
         },
         {
             "language": "Español",
@@ -71,6 +79,52 @@
         {
             "type": "YouTube",
             "src": "https://www.youtube.com/@octe-en"
+        }
+    ],
+    "subtitles": [
+        {
+            "subtitle": [
+                {
+                    "language": "English",
+                    "content": "Work and professional contributions"
+                },
+                {
+                    "language": "Español",
+                    "content": "Trabajo y contribuciones profesionales"
+                }
+            ],
+            "description": [
+                {
+                    "language": "English",
+                    "content": "Explore my professional work and contributions to the XR industry, including AR, VR, and MR projects, game development, and creative technology."
+                },
+                {
+                    "language": "Español",
+                    "content": "Explora mi trabajo profesional y contribuciones a la industria XR, incluyendo proyectos de AR, VR y MR, desarrollo de videojuegos y tecnología creativa."
+                }
+            ]
+        },
+        {
+            "subtitle": [
+                {
+                    "language": "English",
+                    "content": "Projects"
+                },
+                {
+                    "language": "Español",
+                    "content": "Proyectos"
+                }
+            ],
+            "description": [
+                {
+                    "language": "English",
+                    "content": "Discover my latest projects, including AR, VR, and MR experiences, game development, and creative technology."
+                },
+                {
+                    "language": "Español",
+                    "content": "Descubre mis últimos proyectos, incluyendo experiencias de AR, VR y MR, desarrollo de videojuegos y tecnología creativa."
+                }
+            ]
         }
     ]
 }

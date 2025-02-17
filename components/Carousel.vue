@@ -1,8 +1,8 @@
 <template>
     <div class="carousel">
         <div v-for="(item, index) in media" :key="index" class="carousel-item">
-            <img v-if="item.type === 'image'" :src="item.src" :alt="item.alt" class="w-full h-48 object-cover" />
-            <iframe v-if="item.type === 'youtube'" :src="item.src" :title="item.alt" class="w-full h-48" frameborder="0" allowfullscreen></iframe>
+            <img v-if="item.type === 'image'" :src="item.src" :alt="item.alt" class="w-full h-96 object-cover" />
+            <iframe v-if="item.type === 'youtube'" :src="item.src" :title="item.alt" class="w-full h-96" frameborder="0" allowfullscreen></iframe>
         </div>
     </div>
 </template>
