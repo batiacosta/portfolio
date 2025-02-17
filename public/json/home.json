@@ -52,11 +52,25 @@
     "description": [
         {
             "language": "English",
-            "content": "Hello, I am David, an XR Game Developer, and it is an honor to meet you. I specialize in creating immersive and interactive experiences for mobile, PC, and XR platforms. My expertise includes working with Unity Engine, C#, Unreal Engine, C++, and Blueprints. Here, you can explore my projects, find my contact information, and view my resume."
+            "content": "Hello, I'm David, a seasoned XR (Extended Reality) Game Developer with over 7 years of experience in creating immersive and interactive experiences across mobile, PC, and XR platforms, including Augmented Reality (AR), Virtual Reality (VR), and Mixed Reality (MR). I specialize in leveraging cutting-edge technologies such as Unity Engine, C#, Unreal Engine, C++, and Blueprints to bring innovative projects to life. \n\nFeel free to explore my portfolio, get in touch, or review my resume to learn more about my work and how I can contribute to your next project."
         },
         {
             "language": "Español",
-            "content": "Hola, soy David, un desarrollador de videojuegos XR, y es un honor conocerte. Me especializo en crear experiencias inmersivas e interactivas para plataformas móviles, PC y XR. Mi experiencia incluye trabajar con Unity Engine, C#, Unreal Engine, C++ y Blueprints. Aquí, puedes explorar mis proyectos, encontrar mi información de contacto y ver mi currículum."
+            "content": "Hola, soy David, un desarrollador de juegos XR (Realidad Extendida) con más de 7 años de experiencia en la creación de experiencias inmersivas e interactivas para plataformas móviles, PC y XR, incluyendo Realidad Aumentada (AR), Realidad Virtual (VR) y Realidad Mixta (MR). Me especializo en aprovechar tecnologías de vanguardia como Unity Engine, C#, Unreal Engine, C++ y Blueprints para dar vida a proyectos innovadores. \n\nNo dudes en explorar mi portafolio, ponerte en contacto conmigo o revisar mi currículum para saber más sobre mi trabajo y cómo puedo contribuir a tu próximo proyecto."
+        }
+    ],
+    "socials": [
+        {
+            "type": "LinkedIn",
+            "src": "https://www.linkedin.com/in/david-acosta-laverde/"
+        },
+        {
+            "type": "GitHub",
+            "src": "https://github.com/batiacosta"
+        },
+        {
+            "type": "YouTube",
+            "src": "https://www.youtube.com/@octe-en"
         }
     ]
 }

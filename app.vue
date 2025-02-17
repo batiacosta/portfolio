@@ -8,9 +8,16 @@
                 <TypingEffect :strings="titles" :typeSpeed="50" :backSpeed="50" :loop="true" />
             </h1>
             <RoundedPicture src="/images/profile.jpg" alt="David Acosta Laverde" />
-            <p class="text-gray-700 text-lg mx-auto leading-relaxed max-w-2xl mt-6">
-                {{ description }}
-            </p>
+            <div class="text-gray-700 text-lg mx-auto p-2 leading-relaxed max-w-2xl mt-6 text-justify sm:text-justify">
+                <p v-for="(paragraph, index) in descriptionParagraphs" :key="index">
+                    {{ paragraph }}
+                </p>
+            </div>
+            <div class="mt-6 flex justify-center space-x-4">
+                <a v-for="(social, index) in socials" :key="index" :href="social.src" target="_blank" class="text-gray-900 hover:text-orange-600">
+                    <img :src="getSocialIconSrc(social.type)" :alt="social.type" class="w-6 h-6">
+                </a>
+            </div>
         </div>
         <div id="portfolio" class="py-10">
             <h2 class="text-2xl font-bold text-gray-900 text-center mb-8">
@@ -42,8 +49,14 @@ export default {
             language: 'English',
             titles: [],
             description: '',
-            projects: []
+            projects: [],
+            socials: []
         };
+    },
+    computed: {
+        descriptionParagraphs() {
+            return this.description.split('\n\n');
+        }
     },
     created() {
         this.loadContent();
@@ -60,6 +73,7 @@ export default {
                 .then(data => {
                     this.titles = data.title.filter(item => item.language === this.language).map(item => item.content);
                     this.description = data.description.find(item => item.language === this.language).content;
+                    this.socials = data.socials;
                 });
 
             fetch('/json/projects.json')
@@ -73,6 +87,18 @@ export default {
                         tags: project.tags[this.language]
                     }));
                 });
+        },
+        getSocialIconSrc(type) {
+            switch (type) {
+                case 'LinkedIn':
+                    return '/images/icons/linkedin.svg';
+                case 'GitHub':
+                    return '/images/icons/github.svg';
+                case 'YouTube':
+                    return '/images/icons/youtube.svg';
+                default:
+                    return '';
+            }
         }
     }
 };
