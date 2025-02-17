@@ -19,10 +19,24 @@
                 </a>
             </div>
         </div>
-        <div id="portfolio" class="py-10">
+        <div id="work" class="py-10">
             <h2 class="text-2xl font-bold text-gray-900 text-center mb-8">
-                Projects
+                {{ workSubtitle }}
             </h2>
+            <p class="text-gray-700 text-lg mx-auto leading-relaxed max-w-2xl mb-8 text-justify sm:text-justify">
+                {{ workDescription }}
+            </p>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                <Card v-for="(project, index) in workProjects" :key="index" :project="project" />
+            </div>
+        </div>
+        <div id="projects" class="py-10">
+            <h2 class="text-2xl font-bold text-gray-900 text-center mb-8">
+                {{ projectsSubtitle }}
+            </h2>
+            <p class="text-gray-700 text-lg mx-auto leading-relaxed max-w-2xl mb-8 text-justify sm:text-justify">
+                {{ projectsDescription }}
+            </p>
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
                 <Card v-for="(project, index) in projects" :key="index" :project="project" />
             </div>
@@ -34,7 +48,7 @@
 import Header from "./components/Header.vue";
 import RoundedPicture from "./components/RoundedPicture.vue";
 import Card from "./components/Card.vue";
-import TypingEffect from './components/TypingEffect.vue'
+import TypingEffect from './components/TypingEffect.vue';
 
 export default {
     name: "App",
@@ -50,7 +64,12 @@ export default {
             titles: [],
             description: '',
             projects: [],
-            socials: []
+            workProjects: [],
+            socials: [],
+            workSubtitle: '',
+            workDescription: '',
+            projectsSubtitle: '',
+            projectsDescription: ''
         };
     },
     computed: {
@@ -83,6 +102,26 @@ export default {
                     this.titles = data.title.filter(item => item.language === this.language).map(item => item.content);
                     this.description = data.description.find(item => item.language === this.language).content;
                     this.socials = data.socials;
+
+                    const workSection = data.subtitles.find(sub => sub.subtitle.some(s => s.content.includes('Work')));
+                    this.workSubtitle = workSection.subtitle.find(s => s.language === this.language).content;
+                    this.workDescription = workSection.description.find(d => d.language === this.language).content;
+
+                    const projectsSection = data.subtitles.find(sub => sub.subtitle.some(s => s.content.includes('Projects')));
+                    this.projectsSubtitle = projectsSection.subtitle.find(s => s.language === this.language).content;
+                    this.projectsDescription = projectsSection.description.find(d => d.language === this.language).content;
+                });
+
+            fetch('/json/work.json')
+                .then(response => response.json())
+                .then(data => {
+                    this.workProjects = data.map(project => ({
+                        ...project,
+                        title: project.title[this.language],
+                        summary: project.summary[this.language],
+                        description: project.description[this.language],
+                        tags: project.tags[this.language]
+                    }));
                 });
 
             fetch('/json/projects.json')

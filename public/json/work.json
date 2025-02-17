@@ -97,5 +97,42 @@
             "English": ["Published", "AR", "Unity", "C#", "AR Foundation", "Contribution"],
             "Español": ["Publicado", "AR", "Unity", "C#", "AR Foundation", "Contribución"]
         }
+    },
+    {
+        "title": {
+            "English": "Book Tower 75",
+            "Español": "Torre del libro 75"
+        },
+        "media": [
+            {
+                "type": "youtube",
+                "src": "https://www.youtube.com/embed/sbdUhaolV54?si=IXhpywo0OpslHvev",
+                "alt": "BookTower"
+            },
+            {
+                "type": "image",
+                "src": "/images/projects/booktower/booktower.webp",
+                "alt": "BookTower"
+            }
+        ],
+        "description": {
+            "English": "In 2023, I collaborated on an innovative AR project for the Frankfurt Book Fair's 75th anniversary. I animated the 3D tower and programmed a Unity shader to integrate building meshes from Google Maps, ensuring the AR book tower blended seamlessly with the cityscape of Frankfurt. This project, a gift from ZAUBAR, transformed the Messeturm into a giant stack of books using AI-based AR technology, allowing visitors to capture and share unique photos.\n\nThe \"Book Tower\" campaign, accessible via www.booktower75.com, was a highlight of the fair, promoting the relevance of books and reading in the age of AI. Visitors could engage with the AR experience on-site and share their photos with the hashtag #booktower75 for a chance to win new releases. This project showcased my skills in AR development and my ability to create immersive, interactive experiences.",
+            "Español": "En 2023, colaboré en un innovador proyecto de AR para el 75 aniversario de la Feria del Libro de Frankfurt. Animé la torre 3D y programé un shader de Unity para integrar mallas de edificios de Google Maps, asegurando que la torre de libros AR se mezclara perfectamente con el paisaje urbano de Frankfurt. Este proyecto, un regalo de ZAUBAR, transformó el Messeturm en una pila gigante de libros utilizando tecnología AR basada en IA, permitiendo a los visitantes capturar y compartir fotos únicas.\n\nLa campaña \"Book Tower\", accesible a través de www.booktower75.com, fue uno de los puntos destacados de la feria, promoviendo la relevancia de los libros y la lectura en la era de la IA. Los visitantes pudieron interactuar con la experiencia de AR en el lugar y compartir sus fotos con el hashtag #booktower75 para tener la oportunidad de ganar nuevos lanzamientos. Este proyecto mostró mis habilidades en el desarrollo de AR y mi capacidad para crear experiencias inmersivas e interactivas."
+        },
+        "summary": {
+            "English": "I animated a 3D tower and programmed the occlusion for an AR project at the 2023 Frankfurt Book Fair, blending it with Frankfurt's cityscape. The \"Book Tower\" campaign promoted reading and showcased my AR skills.",
+            "Español": "Animé una torre 3D y programé la oclusión para un proyecto de AR en la Feria del Libro de Frankfurt 2023, mezclándola con el paisaje urbano de Frankfurt. La campaña \"Book Tower\" promovió la lectura y mostró mis habilidades en AR."
+        },
+        "links":[
+            {
+                "type": "other",
+                "src": "https://about.zaubar.com/en/blog/worlds-largest-ar-book-tower-during-frankfurt-book-fair",
+                "platform": "Website article"
+            }
+        ],
+        "tags": {
+            "English": ["Published", "AR", "Unity", "C#", "AR Foundation", "Contribution"],
+            "Español": ["Publicado", "AR", "Unity", "C#", "AR Foundation", "Contribución"]
+        }
     }
 ]
