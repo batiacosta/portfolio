@@ -1,6 +1,9 @@
 [
     {
-        "title": "Project",
+        "title": {
+            "English": "Project",
+            "Español": "Proyecto"
+        },
         "media": [
             {
                 "type": "image",
@@ -13,8 +16,14 @@
                 "alt": "Project"
             }
         ],
-        "description": "Description",
-        "summary": "Summary...",
+        "description": {
+            "English": "Description",
+            "Español": "Descripción"
+        },
+        "summary": {
+            "English": "Summary...",
+            "Español": "Resumen..."
+        },
         "links":[
             {
                 "type": "github",
@@ -22,14 +31,16 @@
                 "platform": "github"
             }
         ],
-        "tags": [
-            "tag1",
-            "tag2",
-            "tag3"
-        ]
+        "tags": {
+            "English": ["tag1", "tag2", "tag3"],
+            "Español": ["etiqueta1", "etiqueta2", "etiqueta3"]
+        }
     },
     {
-        "title": "Project",
+        "title": {
+            "English": "Project",
+            "Español": "Proyecto"
+        },
         "media": [
             {
                 "type": "image",
@@ -42,8 +53,14 @@
                 "alt": "Project"
             }
         ],
-        "description": "Description",
-        "summary": "Summary...",
+        "description": {
+            "English": "Description",
+            "Español": "Descripción"
+        },
+        "summary": {
+            "English": "Summary...",
+            "Español": "Resumen..."
+        },
         "links":[
             {
                 "type": "github",
@@ -51,10 +68,9 @@
                 "platform": "github"
             }
         ],
-        "tags": [
-            "tag1",
-            "tag2",
-            "tag3"
-        ]
+        "tags": {
+            "English": ["tag1", "tag2", "tag3"],
+            "Español": ["etiqueta1", "etiqueta2", "etiqueta3"]
+        }
     }
 ]

@@ -1,0 +1,62 @@
+{
+    "title": [
+        {
+            "language": "English",
+            "content": "XR Game Developer"
+        },
+        {
+            "language": "English",
+            "content": "XR Enthusiast"
+        },
+        {
+            "language": "English",
+            "content": "Game Developer"
+        },
+        {
+            "language": "English",
+            "content": "Mobile Developer"
+        },
+        {
+            "language": "English",
+            "content": "Creative Technologist"
+        },
+        {
+            "language": "English",
+            "content": "Youtuber"
+        },
+        {
+            "language": "Español",
+            "content": "Desarrollador de videojuegos XR"
+        },
+        {
+            "language": "Español",
+            "content": "Entusiasta de XR"
+        },
+        {
+            "language": "Español",
+            "content": "Desarrollador de videojuegos"
+        },
+        {
+            "language": "Español",
+            "content": "Desarrollador móvil"
+        },
+        {
+            "language": "Español",
+            "content": "Tecnólogo creativo"
+        },
+        {
+            "language": "Español",
+            "content": "Youtuber"
+        }
+    ],
+    "description": [
+        {
+            "language": "English",
+            "content": "Hello, I am David, an XR Game Developer, and it is an honor to meet you. I specialize in creating immersive and interactive experiences for mobile, PC, and XR platforms. My expertise includes working with Unity Engine, C#, Unreal Engine, C++, and Blueprints. Here, you can explore my projects, find my contact information, and view my resume."
+        },
+        {
+            "language": "Español",
+            "content": "Hola, soy David, un desarrollador de videojuegos XR, y es un honor conocerte. Me especializo en crear experiencias inmersivas e interactivas para plataformas móviles, PC y XR. Mi experiencia incluye trabajar con Unity Engine, C#, Unreal Engine, C++ y Blueprints. Aquí, puedes explorar mis proyectos, encontrar mi información de contacto y ver mi currículum."
+        }
+    ]
+}
