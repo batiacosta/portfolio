@@ -1,8 +1,8 @@
 <template>
-    <header class="bg-white py-6 drop-shadow">
+    <header class="bg-white py-6 ">
         <div class="container mx-auto flex justify-between items-center px-4">
             <div>
-                <h1 class="text-2xl font-bold text-orange-600 m-8">
+                <h1 class="text-2xl font-bold text-orange-600">
                     David Acosta Laverde
                 </h1>
             </div>
@@ -34,6 +34,7 @@
         </div>
     </header>
 </template>
+
 <script>
 export default { name: "Header" };
 </script>

@@ -1,0 +1,60 @@
+[
+    {
+        "title": "Project",
+        "media": [
+            {
+                "type": "image",
+                "src": "/images/profile.jpg",
+                "alt": "Project"
+            },
+            {
+                "type": "youtube",
+                "src": "https://www.youtube.com/embed/bARrOv48ZSQ?si=Y46qyTxqfWHWeWut",
+                "alt": "Project"
+            }
+        ],
+        "description": "Description",
+        "summary": "Summary...",
+        "links":[
+            {
+                "type": "github",
+                "src": "",
+                "platform": "github"
+            }
+        ],
+        "tags": [
+            "tag1",
+            "tag2",
+            "tag3"
+        ]
+    },
+    {
+        "title": "Project",
+        "media": [
+            {
+                "type": "image",
+                "src": "/images/profile.jpg",
+                "alt": "Project"
+            },
+            {
+                "type": "youtube",
+                "src": "https://www.youtube.com/embed/QOC3iEEdbyo?si=3gJKw6MhvdGsXAzf",
+                "alt": "Project"
+            }
+        ],
+        "description": "Description",
+        "summary": "Summary...",
+        "links":[
+            {
+                "type": "github",
+                "src": "",
+                "platform": "github"
+            }
+        ],
+        "tags": [
+            "tag1",
+            "tag2",
+            "tag3"
+        ]
+    }
+]
