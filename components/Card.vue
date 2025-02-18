@@ -29,7 +29,7 @@
                 <div class="mt-4">
                     <div v-for="(item, index) in project.media" :key="index" class="mb-4">
                         <img v-if="item.type === 'image'" :src="item.src" :alt="item.alt" class="w-full  object-cover mb-4" />
-                        <iframe v-if="item.type === 'youtube'" :src="item.src" :title="item.alt" class="w-full h-80" frameborder="0" allowfullscreen></iframe>
+                        <iframe v-if="item.type === 'youtube'" :src="item.src" :title="item.alt" class="w-full lg:h-80" frameborder="0" allowfullscreen></iframe>
                     </div>
                 </div>
             </template>

@@ -10,7 +10,7 @@
                 </button>
             </header>
 
-            <section class="px-4 py-5 overflow-y-auto max-h-96 lg:max-h-[80vh]">
+            <section class="px-4 py-5 overflow-y-auto max-h-96 lg:max-h-[80vh] mb:max-h-[95vh]">
                 <slot name="body"> This is the default body! </slot>
             </section>
             <footer class="bg-gray-100 px-4 py-3 border-t border-gray-200 flex justify-end">
