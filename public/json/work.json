@@ -134,5 +134,141 @@
             "English": ["Published", "AR", "Unity", "C#", "AR Foundation", "Contribution"],
             "Español": ["Publicado", "AR", "Unity", "C#", "AR Foundation", "Contribución"]
         }
+    },
+    {
+        "title": {
+            "English": "Stolpersteine NRW",
+            "Español": "Stolpersteine NRW"
+        },
+        "media": [
+            {
+                "type": "youtube",
+                "src": "https://www.youtube.com/embed/tIcCy-fLRZ0?si=BrXgsrUeh5pf9n3b",
+                "alt": "Stolpersteine NRW"
+            },
+            {
+                "type": "youtube",
+                "src": "https://www.youtube.com/embed/BJ8o-dPw5EY?si=r3rblET2jsYTHfj8",
+                "alt": "Stolpersteine NRW"
+            },
+            {
+                "type": "image",
+                "src": "/images/projects/stolpersteine/stolpersteine-1.png",
+                "alt": "BookTower"
+            },
+            {
+                "type": "image",
+                "src": "/images/projects/stolpersteine/stolpersteine-2.png",
+                "alt": "BookTower"
+            }
+        ],
+        "description": {
+            "English": "As part of the talented team at ZAUBAR, I contributed to the development of the Augmented Reality (AR) features for the Stolpersteine NRW app. This app serves as an interactive memorial to the victims of National Socialism, bringing history to life through texts, photos, audio stories, graphic stories, and AR elements. My primary responsibilities included implementing accessibility features such as screen-reading and font adjustments based on device settings. To achieve this, I developed native libraries in Java and Swift. Additionally, I played a key role in the implementation of the new user interface for the AR side of the app, enhancing user experience and engagement. I also focused on fixing bugs related to plane detection and AR placement, ensuring a smooth and accurate AR experience.\n\nThe Stolpersteine NRW app provides detailed information about individuals who lived in various streets and cities during the NS era. It offers an immersive way to explore the stories of the victims through Augmented Reality features. The app utilizes Google Maps for navigation to Stolpersteine locations and  AR functionalities. It contains information on approximately 17,000 Stolpersteine in over 280 cities in North Rhine-Westphalia (NRW), each commemorating a victim of National Socialism. The project was supported by experts from over 250 cities in NRW, whose knowledge and research were invaluable.",
+            "Español": "Como parte del talentoso equipo de ZAUBAR, contribuí al desarrollo de las funciones de Realidad Aumentada (AR) para la aplicación Stolpersteine NRW. Esta aplicación sirve como un memorial interactivo a las víctimas del Nacionalsocialismo, dando vida a la historia a través de textos, fotos, historias de audio, historias gráficas y elementos de AR. Mis responsabilidades principales incluyeron la implementación de funciones de accesibilidad como la lectura de pantalla y ajustes de fuente basados en la configuración del dispositivo. Para lograr esto, desarrollé bibliotecas nativas en Java y Swift. Además, desempeñé un papel clave en la implementación de la nueva interfaz de usuario para el lado de AR de la aplicación, mejorando la experiencia del usuario y la participación. También me enfoqué en corregir errores relacionados con la detección de planos y la colocación de AR, asegurando una experiencia de AR fluida y precisa.\n\nLa aplicación Stolpersteine NRW proporciona información detallada sobre individuos que vivieron en varias calles y ciudades durante la era del NS. Ofrece una forma inmersiva de explorar las historias de las víctimas a través de funciones de Realidad Aumentada. La aplicación utiliza Google Maps para la navegación a las ubicaciones de Stolpersteine y funcionalidades de AR. Contiene información sobre aproximadamente 17,000 Stolpersteine en más de 280 ciudades en Renania del Norte-Westfalia (NRW), cada uno conmemorando a una víctima del Nacionalsocialismo. El proyecto fue apoyado por expertos de más de 250 ciudades en NRW, cuyo conocimiento e investigación fueron invaluables."
+        },
+        "summary": {
+            "English": "Developed AR features for Stolpersteine NRW app at ZAUBAR, focusing on accessibility, UI, and bug fixes. The app memorializes NS victims with AR, texts, and media, covering 17,000 Stolpersteine in NRW.",
+            "Español": "Desarrollé funciones de AR para la aplicación Stolpersteine NRW en ZAUBAR, centrándome en accesibilidad, UI y corrección de errores. La aplicación conmemora a las víctimas del NS con AR, textos y medios, cubriendo 17,000 Stolpersteine en NRW."
+        },
+        "links":[
+            {
+                "type": "apple",
+                "src": "https://apps.apple.com/es/app/stolpersteine-nrw/id1582598963",
+                "platform": "iOS"
+            },
+            {
+                "type": "android",
+                "src": "https://play.google.com/store/apps/details?id=de.WDR.Stolpersteine_NRW&hl=en",
+                "platform": "Android"
+            }
+        ],
+        "tags": {
+            "English": ["Published", "AR", "Unity", "C#", "AR Foundation", "Contribution"],
+            "Español": ["Publicado", "AR", "Unity", "C#", "AR Foundation", "Contribución"]
+        }
+    },
+    {
+        "title": {
+            "English": "Rekovelle Mixed Reality LAPD",
+            "Español": "Rekovelle Mixed Reality LAPD"
+        },
+        "media": [
+            {
+                "type": "youtube",
+                "src": "https://www.youtube.com/embed/eVhM-bYYBpw?si=T1SCTOqoxm-B8IR6",
+                "alt": "Rekovelle Pen AR"
+            },
+            {
+                "type": "image",
+                "src": "/images/projects/rekovelle/rekovelle-1.jpeg",
+                "alt": "BookTower"
+            },
+            {
+                "type": "image",
+                "src": "/images/projects/rekovelle/rekovelle-2.jpeg",
+                "alt": "BookTower"
+            }
+        ],
+        "description": {
+            "English": "I developed the Rekovelle Pen AR app, initially designed for Hololens 1 and later migrated and enhanced for iPadOS. As the sole developer on this project, I was responsible for programming, animating, and implementing the interactivity of the application. I also created 3D models for most of the visual elements and integrated audio sequences according to the storyboard. The app was built using Unity, AR Foundation, and C#.\n\nRekovelle Pen AR is an Augmented Reality app primarily designed for iPad. It utilizes the iPad camera to reference the real world and place interactive 3D models within it. Users can view and interact with these models through the iPad screen. The app presents content related to the Rekovelle Pen in an engaging manner, using animations, 3D models, and sound. Currently, the app is available in a few countries, offering an immersive and informative experience.",
+            "Español": "Desarrollé la aplicación Rekovelle Pen AR, inicialmente diseñada para Hololens 1 y posteriormente migrada y mejorada para iPadOS. Como único desarrollador en este proyecto, fui responsable de programar, animar e implementar la interactividad de la aplicación. También creé modelos 3D para la mayoría de los elementos visuales e integré secuencias de audio según el guion. La aplicación se construyó utilizando Unity, AR Foundation y C#.\n\nRekovelle Pen AR es una aplicación de Realidad Aumentada diseñada principalmente para iPad. Utiliza la cámara del iPad para hacer referencia al mundo real y colocar modelos 3D interactivos dentro de él. Los usuarios pueden ver e interactuar con estos modelos a través de la pantalla del iPad. La aplicación presenta contenido relacionado con el Rekovelle Pen de una manera atractiva, utilizando animaciones, modelos 3D y sonido. Actualmente, la aplicación está disponible en pocos países, ofreciendo una experiencia inmersiva e informativa."
+        },
+        "summary": {
+            "English": "Developed Rekovelle Pen AR app for iPadOS, handling programming, animation, and 3D modeling. The app uses AR to display interactive 3D models and content related to Rekovelle Pen. Built with Unity and C#.",
+            "Español": "Desarrollé la aplicación Rekovelle Pen AR para iPadOS, manejando programación, animación y modelado 3D. La aplicación utiliza AR para mostrar modelos 3D interactivos y contenido relacionado con Rekovelle Pen. Construido con Unity y C#."
+        },
+        "links":[
+            {
+                "type": "other",
+                "src": "https://appadvice.com/app/rekovelle-mixed-reality-lapd/1537947706",
+                "platform": "Website article"
+            },
+            {
+                "type": "apple",
+                "src": "https://apps.apple.com/us/app/id1537947706",
+                "platform": "iPad only for few countries"
+            }
+        ],
+        "tags": {
+            "English": ["Published", "AR", "Unity", "C#", "AR Foundation", "Contribution"],
+            "Español": ["Publicado", "AR", "Unity", "C#", "AR Foundation", "Contribución"]
+        }
+    },
+    {
+        "title": {
+            "English": "VR hyaluronic acid game",
+            "Español": "Juego de ácido hialurónico VR"
+        },
+        "media": [
+            {
+                "type": "youtube",
+                "src": "https://www.youtube.com/embed/S2r8IC5hlmo?si=7q6u9gWWyPf8RdB3",
+                "alt": "Rekovelle Pen AR"
+            },
+            {
+                "type": "image",
+                "src": "/images/projects/Hyamovis/hyamovis-1.gif",
+                "alt": "BookTower"
+            }
+        ],
+        "description": {
+            "English": "I developed a VR game to promote Hymovis IADD4, a hyaluronic acid solution for knee treatment. In this game, players interact with a damaged knee, collecting hyaluronic acid molecules to heal it. As molecules are added, the knee gradually recovers, culminating in a syringe injecting the acid once the goal of 4 mg is reached. I was responsible for rigging and animating the model, as well as modeling the hyaluronic molecules. The game, built using Unity and C#, allows players to grab, throw, or gently place the molecules. It was showcased at an osteo field convention in Santa Marta City.",
+            "Español": "Desarrollé un juego de VR para promocionar Hymovis IADD4, una solución de ácido hialurónico para el tratamiento de rodilla. En este juego, los jugadores interactúan con una rodilla dañada, recolectando moléculas de ácido hialurónico para sanarla. A medida que se añaden moléculas, la rodilla se recupera gradualmente, culminando en una jeringa que inyect"
+        },
+        "summary": {
+            "English": "Developed a VR game for Hymovis IADD4, where players collect hyaluronic acid molecules to heal a damaged knee. Built with Unity and C#, showcased at an osteo field convention in Santa Marta City.",
+            "Español": "Desarrollé un juego de VR para Hymovis IADD4, donde los jugadores recolectan moléculas de ácido hialurónico para sanar una rodilla dañada. Construido con Unity y C#, mostrado en una convención de campo osteo en la ciudad de Santa Marta."
+        },
+        "links":[
+            {
+                "type": "github",
+                "src": "https://apps.apple.com/us/app/id1537947706",
+                "platform": "Meta Quest 2"
+            }
+        ],
+        "tags": {
+            "English": ["Published", "VR", "Unity", "C#", "XR Toolkit", "Contribution", "Meta Quest 2"],
+            "Español": ["Publicado", "VR", "Unity", "C#", "XR Toolkit", "Contribución", "Meta Quest 2"]
+        }
     }
 ]

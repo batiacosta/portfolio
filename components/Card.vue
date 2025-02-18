@@ -22,13 +22,13 @@
                 <div class="mt-4">
                     <div v-for="(link, index) in project.links" :key="index" class="flex items-center space-x-2 mb-2">
                         <img :src="getIcon(link.type)" alt="icon" class="w-6 h-6 filter-orange">
-                        <span v-if="link.platform" class="text-gray-500">{{ link.platform }}</span>
-                        <a :href="link.src" target="_blank" class="text-orange-400 hover:underline">Link</a>
+                        <span v-if="link.platform" class="text-gray-500 font-bold">{{ link.platform }}</span>
+                        <a :href="link.src" target="_blank" class="text-orange-400 hover:underline font-bold">Link</a>
                     </div>
                 </div>
                 <div class="mt-4">
                     <div v-for="(item, index) in project.media" :key="index" class="mb-4">
-                        <img v-if="item.type === 'image'" :src="item.src" :alt="item.alt" class="w-full  object-cover mb-4" />
+                        <img v-if="item.type === 'image'" :src="item.src" :alt="item.alt" class="w-full object-cover mb-4" />
                         <iframe v-if="item.type === 'youtube'" :src="item.src" :title="item.alt" class="w-full lg:h-80" frameborder="0" allowfullscreen></iframe>
                     </div>
                 </div>
