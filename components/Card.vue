@@ -16,9 +16,6 @@
         <Modal v-if="isModalVisible" @close="closeModal">
             <template #header>{{ project.title }}</template>
             <template #body>
-                <div class="flex flex-col items-center mx-auto">
-                    <Carousel :media="project.media" :isModal="true" class="mt-4 h-max-64 lg:w-80"/>
-                </div>
                 <div class="text-gray-700 text-base mt-4 text-justify max-h-96 overflow-y-auto">
                     <p v-for="(paragraph, index) in project.description.split('\n\n')" :key="index" class="mb-4">{{ paragraph }}</p>
                 </div>
@@ -27,6 +24,12 @@
                         <img :src="getIcon(link.type)" alt="icon" class="w-6 h-6 filter-orange">
                         <span v-if="link.platform" class="text-gray-500">{{ link.platform }}</span>
                         <a :href="link.src" target="_blank" class="text-orange-400 hover:underline">Link</a>
+                    </div>
+                </div>
+                <div class="mt-4">
+                    <div v-for="(item, index) in project.media" :key="index" class="mb-4">
+                        <img v-if="item.type === 'image'" :src="item.src" :alt="item.alt" class="w-full  object-cover mb-4" />
+                        <iframe v-if="item.type === 'youtube'" :src="item.src" :title="item.alt" class="w-full h-80" frameborder="0" allowfullscreen></iframe>
                     </div>
                 </div>
             </template>
