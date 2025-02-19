@@ -262,13 +262,149 @@
         "links":[
             {
                 "type": "github",
-                "src": "https://apps.apple.com/us/app/id1537947706",
-                "platform": "Meta Quest 2"
+                "src": "https://github.com/batiacosta/EncontrarMayoURP/releases/tag/V1",
+                "platform": "Meta Quest APK"
             }
         ],
         "tags": {
-            "English": ["Published", "VR", "Unity", "C#", "XR Toolkit", "Contribution", "Meta Quest 2"],
+            "English": ["Shipped", "VR", "Unity", "C#", "XR Toolkit", "Contribution", "Meta Quest 2"],
             "Español": ["Publicado", "VR", "Unity", "C#", "XR Toolkit", "Contribución", "Meta Quest 2"]
+        }
+    },
+    {
+        "title": {
+            "English": "Porfiria App (Mobile App)",
+            "Español": "Porfiria App (App Móvil)"
+        },
+        "media": [
+            {
+                "type": "image",
+                "src": "/images/projects/porfiria/porfiria-1.webp",
+                "alt": "Porfiria"
+            },
+            {
+                "type": "image",
+                "src": "/images/projects/porfiria/porfiria-2.webp",
+                "alt": "Porfiria"
+            },
+            {
+                "type": "image",
+                "src": "/images/projects/porfiria/porfiria-3.webp",
+                "alt": "Porfiria"
+            },
+            {
+                "type": "image",
+                "src": "/images/projects/porfiria/porfiria-4.webp",
+                "alt": "Porfiria"
+            }
+        ],
+        "description": {
+            "English": "I developed a mobile application called Porfiria App using Flutter and Firebase, aimed at assisting doctors in emergency and frontline settings to identify the symptoms of Porphyria, a rare disease. I was responsible for the complete programming of the application, integrating content, and designing the graphical interface according to the UI designs provided by the designer. The application is available for both iOS and Android devices, including phones and tablets.\n\nThe application was published on the AppStore and PlayStore under the name GRAZILES, the advertising agency I worked for at the time. This project allowed me to apply my technical skills in Flutter and Firebase, as well as collaborate closely with designers and other professionals to create a useful and accessible tool for medical personnel. The experience of taking this application from conception to launch provided me with valuable lessons in software development and project management.",
+            "Español": "Desarrollé una aplicación móvil llamada Porfiria App utilizando Flutter y Firebase, con el objetivo de ayudar a los médicos en situaciones de emergencia y de primera línea a identificar los síntomas de la Porfiria, una enfermedad rara. Fui responsable de la programación completa de la aplicación, integrando contenido y diseñando la interfaz gráfica de acuerdo con los diseños de UI proporcionados por el diseñador. La aplicación está disponible para dispositivos iOS y Android, incluyendo teléfonos y tabletas.\n\nLa aplicación fue publicada en el AppStore y PlayStore bajo el nombre GRAZILES, la agencia de publicidad para la que trabajaba en ese momento. Este proyecto me permitió aplicar mis habilidades técnicas en Flutter y Firebase, así como colaborar estrechamente con diseñadores y otros profesionales para crear una herramienta útil y accesible para el personal médico. La experiencia de llevar esta aplicación desde la concepción hasta el lanzamiento me proporcionó valiosas lecciones en desarrollo de software y gestión de proyectos."
+        },
+        "summary": {
+            "English": "I developed Porfiria App using Flutter and Firebase to help doctors identify Porphyria symptoms. Published by GRAZILES, it’s available on iOS and Android. This project enhanced my skills in software development and project management.",
+            "Español": "Desarrollé Porfiria App utilizando Flutter y Firebase para ayudar a los médicos a identificar los síntomas de Porfiria. Publicada por GRAZILES, está disponible en iOS y Android. Este proyecto mejoró mis habilidades en desarrollo de software y gestión de proyectos."
+        },
+        "links":[
+            {
+                "type": "apple",
+                "src": "https://apps.apple.com/co/app/porfiria-app/id6479202660?platform=iphone",
+                "platform": "iOS, iPadOS"
+            }
+        ],
+        "tags": {
+            "English": ["Shipped", "Mobile App", "Flutter","Contribution", "iOS"],
+            "Español": ["Publicado", "Aplicación Móvil", "Flutter", "Contribución", "iOS"]
+        }
+    },
+    {
+        "title": {
+            "English": "PROA UNAL (Mobile App)",
+            "Español": "PROA UNAL (App Móvil)"
+        },
+        "media": [
+            {
+                "type": "image",
+                "src": "/images/projects/proa-unal/proa-unal-1.webp",
+                "alt": "proa-unal"
+            },
+            {
+                "type": "image",
+                "src": "/images/projects/proa-unal/proa-unal-2.webp",
+                "alt": "proa-unal"
+            },
+            {
+                "type": "image",
+                "src": "/images/projects/proa-unal/proa-unal-3.webp",
+                "alt": "proa-unal"
+            }
+        ],
+        "description": {
+            "English": "I developed the PROA UNAL application for the Universidad Nacional de Colombia, aimed at providing a tool for medical professionals in frontline and emergency settings to identify and suggest appropriate antimicrobials for various scenarios, such as \"Acquired pneumonia in the community,\" \"skin infections,\" \"urinary tract infections,\" and other cases. The application was built using Flutter and Firebase, ensuring robust authentication and database management.\n\nThis project allowed me to leverage my technical expertise in Flutter and Firebase while collaborating with medical experts to create a practical and reliable tool for healthcare providers. The application is available on both iOS and Android platforms, demonstrating my ability to deliver cross-platform solutions that meet the needs of diverse user groups. The experience of developing PROA UNAL has enriched my skills in software development and reinforced the importance of interdisciplinary collaboration.",
+            "Español": "Desarrollé la aplicación PROA UNAL para la Universidad Nacional de Colombia, con el objetivo de proporcionar una herramienta para profesionales médicos en situaciones de primera línea y emergencia para identificar y sugerir antimicrobianos apropiados para varios escenarios, como \"Neumonía adquirida en la comunidad,\" \"infecciones de la piel,\" \"infecciones del tracto urinario,\" y otros casos. La aplicación se construyó utilizando Flutter y Firebase, asegurando una autenticación robusta y una gestión de base de datos.\n\nEste proyecto me permitió aprovechar mi experiencia técnica en Flutter y Firebase mientras colaboraba con expertos médicos para crear una herramienta práctica y confiable para los proveedores de atención médica. La aplicación está disponible en las plataformas iOS y Android, demostrando mi capacidad para ofrecer soluciones multiplataforma que satisfacen las necesidades de diversos grupos de usuarios. La experiencia de desarrollar PROA UNAL ha enriquecido mis habilidades en desarrollo de software y ha reforzado la importancia de la colaboración interdisciplinaria."
+        },
+        "summary": {
+            "English": "I developed PROA UNAL for the Universidad Nacional de Colombia using Flutter and Firebase. It helps medical professionals identify and suggest antimicrobials for various infections. Available on iOS and Android, it showcases my cross-platform development skills.",
+            "Español": "Desarrollé PROA UNAL para la Universidad Nacional de Colombia utilizando Flutter y Firebase. Ayuda a los profesionales médicos a identificar y sugerir antimicrobianos para diversas infecciones. Disponible en iOS y Android, muestra mis habilidades de desarrollo multiplataforma."
+        },
+        "links":[
+            {
+                "type": "apple",
+                "src": "https://apps.apple.com/co/app/proa-unal/id1587700097?platform=iphone",
+                "platform": "iOS, iPadOS"
+            },
+            {
+                "type": "android",
+                "src": "https://play.google.com/store/apps/details?id=co.edu.unal.proaunal&hl=es",
+                "platform": "Android"
+            }
+        ],
+        "tags": {
+            "English": ["Shipped", "Mobile App", "Flutter","Contribution", "iOS", "Android"],
+            "Español": ["Publicado", "Aplicación Móvil", "Flutter", "Contribución", "iOS", "Android"]
+        }
+    },
+    {
+        "title": {
+            "English": "Cistinosis (Mobile App)",
+            "Español": "Cistinosis (App Móvil)"
+        },
+        "media": [
+            {
+                "type": "image",
+                "src": "/images/projects/cistinosis/cistinosis-1.webp",
+                "alt": "cistinosis"
+            },
+            {
+                "type": "image",
+                "src": "/images/projects/cistinosis/cistinosis-2.webp",
+                "alt": "cistinosis"
+            },
+            {
+                "type": "image",
+                "src": "/images/projects/cistinosis/cistinosis-3.webp",
+                "alt": "cistinosis"
+            }
+        ],
+        "description": {
+            "English": "I developed the Cistinosis App using Flutter and Firebase, aimed at assisting pediatric medicine professionals in detecting the symptoms of Cystinosis, a rare genetic disease. Cystinosis causes the accumulation of cystine crystals in cells, leading to damage in various organs, particularly the kidneys and eyes12. The application provides a valuable tool for early diagnosis and management of this condition, ensuring that healthcare providers can offer timely and effective treatment.\n\nThis project was developed for Recordati while I was working at GRAZILES. It allowed me to utilize my technical skills in Flutter and Firebase to create a reliable and user-friendly application. Available on both iOS and Android platforms, the Cistinosis App showcases my ability to deliver cross-platform solutions that meet the specific needs of medical professionals. The experience of developing this app has further enhanced my expertise in software development and my understanding of the importance of creating tools that support healthcare providers in their critical work.",
+            "Español": "Desarrollé la aplicación Cistinosis utilizando Flutter y Firebase, con el objetivo de ayudar a los profesionales de la medicina pediátrica a detectar los síntomas de la Cistinosis, una enfermedad genética rara. La Cistinosis causa la acumulación de cristales de cistina en las células, lo que conduce a daños en varios órganos, especialmente los riñones y los ojos12. La aplicación proporciona una herramienta valiosa para el diagnóstico temprano y el manejo de esta condición, asegurando que los proveedores de atención médica puedan ofrecer un tratamiento oportuno y efectivo.\n\nEste proyecto fue desarrollado para Recordati mientras trabajaba en GRAZILES. Me permitió utilizar mis habilidades técnicas en Flutter y Firebase para crear una aplicación confiable y fácil de usar. Disponible en las plataformas iOS y Android, la aplicación Cistinosis muestra mi capacidad para ofrecer soluciones multiplataforma que satisfacen las necesidades específicas de los profesionales médicos. La experiencia de desarrollar esta aplicación ha mejorado aún más mi experiencia en desarrollo de software y mi comprensión de la importancia de crear herramientas que apoyen a los proveedores de atención médica en su trabajo crítico."
+        },
+        "summary": {
+            "English": "I developed Cistinosis App for Recordati using Flutter and Firebase to help pediatric professionals detect Cystinosis symptoms. Available on iOS and Android, it supports early diagnosis and treatment, showcasing my cross-platform development skills.",
+            "Español": "Desarrollé la aplicación Cistinosis para Recordati utilizando Flutter y Firebase para ayudar a los profesionales pediátricos a detectar los síntomas de la Cistinosis. Disponible en iOS y Android, apoya el diagnóstico y tratamiento tempranos, mostrando mis habilidades de desarrollo multiplataforma."
+        },
+        "links":[
+            {
+                "type": "apple",
+                "src": "https://apps.apple.com/co/app/cistinosis/id1664453687?platform=iphone",
+                "platform": "iOS, iPadOS"
+            }
+        ],
+        "tags": {
+            "English": ["Shipped", "Mobile App", "Flutter","Contribution", "iOS"],
+            "Español": ["Publicado", "Aplicación Móvil", "Flutter", "Contribución", "iOS"]
         }
     }
 ]
