@@ -27,11 +27,7 @@
                             <a :href="link.src" target="_blank" class="text-orange-400 hover:underline font-bold">Link</a>
                         </div>
                     </div>
-                    <div class="mt-4">
-                        <div v-for="(tag, index) in project.tags" :key="index" class="inline-block bg-gray-700 rounded-full px-3 py-1 text-sm font-semibold text-gray-300 mr-2 mb-2">
-                            {{ tag }}
-                        </div>
-                    </div>
+                    
                     <div class="mt-4">
                         <div v-for="(item, index) in project.media" :key="index" class="mb-4">
                             <img v-if="item.type === 'image'" :src="item.src" :alt="item.alt" class="w-full object-cover mb-4" />
@@ -39,6 +35,11 @@
                         </div>
                     </div>
                 </div>
+                <div class="mt-4">
+                        <div v-for="(tag, index) in project.tags" :key="index" class="inline-block bg-gray-700 rounded-full px-3 py-1 text-sm font-semibold text-gray-300 mr-2 mb-2">
+                            {{ tag }}
+                        </div>
+                    </div>
             </template>
             <template #footer>
                 <button @click="closeModal" class="bg-gradient-to-r from-orange-400 via-orange-500 to-rose-500 text-white px-4 py-2 rounded hover:bg-green-600">Close</button>

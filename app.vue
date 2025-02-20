@@ -15,7 +15,7 @@
             </div>
             <div class="mt-6 flex justify-center space-x-4">
                 <a v-for="(social, index) in socials" :key="index" :href="social.src" target="_blank" class="text-gray-300 hover:text-yellow-400">
-                    <img :src="getSocialIconSrc(social.type)" :alt="social.type" class="w-6 h-6">
+                    <img :src="getSocialIconSrc(social.type)" :alt="social.type" class="w-6 h-6 filter invert transition-transform duration-200 transform hover:scale-125">
                 </a>
             </div>
         </div>
