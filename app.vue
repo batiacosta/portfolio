@@ -26,7 +26,7 @@
             <p class="text-gray-300 text-lg mx-auto leading-relaxed max-w-2xl mb-8 text-justify sm:text-justify">
                 {{ workDescription }}
             </p>
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
                 <Card v-for="(project, index) in workProjects" :key="index" :project="project" />
             </div>
         </div>
@@ -37,7 +37,7 @@
             <p class="text-gray-300 text-lg mx-auto leading-relaxed max-w-2xl mb-8 text-justify sm:text-justify">
                 {{ projectsDescription }}
             </p>
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
                 <Card v-for="(project, index) in projects" :key="index" :project="project" />
             </div>
         </div>

@@ -1,5 +1,8 @@
 <template>
     <div class="max-w-sm rounded overflow-hidden shadow-lg bg-gray-800 transform hover:scale-105 transition-transform duration-300">
+        <div v-if="firstImage" class="h-48 overflow-hidden">
+            <img :src="firstImage.src" :alt="firstImage.alt" class="w-full object-cover">
+        </div>
         <div class="px-6 py-4">
             <div class="font-bold text-xl mb-2 text-white">{{ project.title }}</div>
             <p class="text-gray-300 text-base">{{ project.summary }}</p>
@@ -31,6 +34,11 @@
                         </div>
                     </div>
                 </div>
+                <div class="mt-4">
+                        <div v-for="(tag, index) in project.tags" :key="index" class="inline-block bg-gray-700 rounded-full px-3 py-1 text-sm font-semibold text-gray-300 mr-2 mb-2">
+                            {{ tag }}
+                        </div>
+                    </div>
             </template>
             <template #footer>
                 <button @click="closeModal" class="bg-gradient-to-r from-orange-400 via-orange-500 to-rose-500 text-white px-4 py-2 rounded hover:bg-green-600">Close</button>
@@ -57,6 +65,11 @@ export default {
         return {
             isModalVisible: false
         };
+    },
+    computed: {
+        firstImage() {
+            return this.project.media.find(item => item.type === 'image');
+        }
     },
     methods: {
         showModal() {
