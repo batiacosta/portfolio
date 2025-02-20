@@ -153,13 +153,13 @@
             },
             {
                 "type": "image",
-                "src": "/images/projects/stolpersteine/stolpersteine-1.png",
-                "alt": "BookTower"
+                "src": "/images/projects/Stolpersteine/stolpersteine-1.png",
+                "alt": "Stolpersteine NRW"
             },
             {
                 "type": "image",
-                "src": "/images/projects/stolpersteine/stolpersteine-2.png",
-                "alt": "BookTower"
+                "src": "/images/projects/Stolpersteine/stolpersteine-2.png",
+                "alt": "Stolpersteine NRW"
             }
         ],
         "description": {
@@ -200,12 +200,12 @@
             },
             {
                 "type": "image",
-                "src": "/images/projects/rekovelle/rekovelle-1.jpeg",
+                "src": "/images/projects/Rekovelle/rekovelle-1.jpeg",
                 "alt": "BookTower"
             },
             {
                 "type": "image",
-                "src": "/images/projects/rekovelle/rekovelle-2.jpeg",
+                "src": "/images/projects/Rekovelle/rekovelle-2.jpeg",
                 "alt": "BookTower"
             }
         ],
