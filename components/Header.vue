@@ -8,8 +8,8 @@
             </div>
             <nav class="hidden md:flex space-x-4">
                 <a href="#about" class="text-white hover:text-yellow-400">About</a>
+                <a href="#work" class="text-white hover:text-yellow-400">Work</a>
                 <a href="#projects" class="text-white hover:text-yellow-400">Projects</a>
-                <a href="#contact" class="text-white hover:text-yellow-400">Contact</a>
             </nav>
             <div class="relative">
                 <select @change="changeLanguage" class="text-white bg-transparent border border-white rounded px-2 py-1">
@@ -25,9 +25,9 @@
         </div>
         <div v-if="isMenuOpen" class="md:hidden">
             <nav class="flex flex-col space-y-2 px-4 py-2">
-                <a href="#about" class="text-white hover:text-yellow-400">About</a>
-                <a href="#projects" class="text-white hover:text-yellow-400">Projects</a>
-                <a href="#contact" class="text-white hover:text-yellow-400">Contact</a>
+                <a href="#introduction" class="text-white hover:text-yellow-400">About</a>
+                <a href="#work" class="text-white hover:text-yellow-400">Work</a>
+                <a href="#contact" class="text-white hover:text-yellow-400">Projects</a>
             </nav>
         </div>
     </header>

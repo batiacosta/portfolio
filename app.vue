@@ -21,13 +21,13 @@
         </div>
         <div id="work" class="py-10">
             <h2 class="text-2xl font-bold text-gray-300 text-center mb-8">
-                {{ workSubtitle }}
+            {{ workSubtitle }}
             </h2>
             <p class="text-gray-300 text-lg mx-auto p-2 leading-relaxed max-w-2xl mt-6 text-justify sm:text-justify">
-                {{ workDescription }}
+            {{ workDescription }}
             </p>
             <div class="container mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 justify-items-center">
-                <Card v-for="(project, index) in workProjects" :key="index" :project="project" />
+            <Card v-for="(project, index) in workProjects" :key="index" :project="project" />
             </div>
         </div>
         <div id="projects" class="py-10">
