@@ -1,5 +1,5 @@
 <template>
-    <header class="bg-gradient-to-r from-blue-600 via-purple-600 to-indigo-600 py-6 shadow-md">
+    <header class="bg-gradient-to-r from-gray-900 via-gray-800 to-gray-700 py-6 shadow-md">
         <div class="container mx-auto flex justify-between items-center px-4">
             <div>
                 <h1 class="text-3xl font-extrabold text-white">

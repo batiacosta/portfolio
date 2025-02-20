@@ -1,8 +1,8 @@
 <template>
-    <header class="bg-gradient-to-r from-blue-600 via-purple-600 to-indigo-600 py-6 shadow-md">
+    <header class="bg-gradient-to-r from-gray-900 via-gray-700 to-gray-900 py-6 shadow-md">
         <Header @onLanguageChange="setLanguage" />
     </header>
-    <div id="app" class="font-sans sm:mr-10 sm:ml-10 md:mr-20 md:ml-20 bg-dark-pattern text-white min-h-screen">
+    <div id="app" class="font-sans  bg-dark-pattern text-white min-h-screen w-full">
         <div id="introduction" class="text-center py-10">
             <h1 class="text-4xl font-extrabold bg-gradient-to-r from-yellow-400 via-orange-500 to-rose-700 bg-clip-text text-transparent mb-6">
                 <TypingEffect :strings="titles" :typeSpeed="50" :backSpeed="50" :loop="true" />
