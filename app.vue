@@ -2,7 +2,7 @@
     <header class="bg-gradient-to-r from-gray-900 via-gray-700 to-gray-900 py-6 shadow-md">
         <Header @onLanguageChange="setLanguage" />
     </header>
-    <div id="app" class="font-sans  bg-dark-pattern text-white min-h-screen w-full">
+    <div id="app" class="font-sans bg-dark-pattern text-white min-h-screen w-full">
         <div id="introduction" class="text-center py-10">
             <h1 class="text-4xl font-extrabold bg-gradient-to-r from-yellow-400 via-orange-500 to-rose-700 bg-clip-text text-transparent mb-6">
                 <TypingEffect :strings="titles" :typeSpeed="50" :backSpeed="50" :loop="true" />
@@ -23,10 +23,10 @@
             <h2 class="text-2xl font-bold text-gray-300 text-center mb-8">
                 {{ workSubtitle }}
             </h2>
-            <p class="text-gray-300 text-lg mx-auto leading-relaxed max-w-2xl mb-8 text-justify sm:text-justify">
+            <p class="text-gray-300 text-lg mx-auto p-2 leading-relaxed max-w-2xl mt-6 text-justify sm:text-justify">
                 {{ workDescription }}
             </p>
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div class="container mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 justify-items-center">
                 <Card v-for="(project, index) in workProjects" :key="index" :project="project" />
             </div>
         </div>
@@ -34,10 +34,10 @@
             <h2 class="text-2xl font-bold text-gray-300 text-center mb-8">
                 {{ projectsSubtitle }}
             </h2>
-            <p class="text-gray-300 text-lg mx-auto leading-relaxed max-w-2xl mb-8 text-justify sm:text-justify">
+            <p class="ttext-gray-300 text-lg mx-auto p-2 leading-relaxed max-w-2xl mt-6 text-justify sm:text-justify">
                 {{ projectsDescription }}
             </p>
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div class="container mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 justify-items-center">
                 <Card v-for="(project, index) in projects" :key="index" :project="project" />
             </div>
         </div>

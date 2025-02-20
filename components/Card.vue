@@ -1,5 +1,5 @@
 <template>
-    <div class="max-w-sm rounded overflow-hidden shadow-lg bg-gray-800 transform hover:scale-105 transition-transform duration-300">
+    <div class="max-w-sm w-full sm:w-auto rounded overflow-hidden shadow-lg bg-gray-800 transform hover:scale-105 transition-transform duration-300">
         <div v-if="firstImage" class="h-48 overflow-hidden">
             <img :src="firstImage.src" :alt="firstImage.alt" class="w-full object-cover">
         </div>
@@ -28,17 +28,17 @@
                         </div>
                     </div>
                     <div class="mt-4">
+                        <div v-for="(tag, index) in project.tags" :key="index" class="inline-block bg-gray-700 rounded-full px-3 py-1 text-sm font-semibold text-gray-300 mr-2 mb-2">
+                            {{ tag }}
+                        </div>
+                    </div>
+                    <div class="mt-4">
                         <div v-for="(item, index) in project.media" :key="index" class="mb-4">
                             <img v-if="item.type === 'image'" :src="item.src" :alt="item.alt" class="w-full object-cover mb-4" />
                             <iframe v-if="item.type === 'youtube'" :src="item.src" :title="item.alt" class="w-full lg:h-80" frameborder="0" allowfullscreen></iframe>
                         </div>
                     </div>
                 </div>
-                <div class="mt-4">
-                        <div v-for="(tag, index) in project.tags" :key="index" class="inline-block bg-gray-700 rounded-full px-3 py-1 text-sm font-semibold text-gray-300 mr-2 mb-2">
-                            {{ tag }}
-                        </div>
-                    </div>
             </template>
             <template #footer>
                 <button @click="closeModal" class="bg-gradient-to-r from-orange-400 via-orange-500 to-rose-500 text-white px-4 py-2 rounded hover:bg-green-600">Close</button>
