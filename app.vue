@@ -1,29 +1,29 @@
 <template>
-    <header class="bg-gray-800 text-white p-4 shadow-md">
+    <header class="bg-gradient-to-r from-blue-600 via-purple-600 to-indigo-600 py-6 shadow-md">
         <Header @onLanguageChange="setLanguage" />
     </header>
-    <div id="app" class="font-sans sm:mr-10 sm:ml-10 md:mr-20 md:ml-20">
+    <div id="app" class="font-sans sm:mr-10 sm:ml-10 md:mr-20 md:ml-20 bg-dark-pattern text-white min-h-screen">
         <div id="introduction" class="text-center py-10">
             <h1 class="text-4xl font-extrabold bg-gradient-to-r from-yellow-400 via-orange-500 to-rose-700 bg-clip-text text-transparent mb-6">
                 <TypingEffect :strings="titles" :typeSpeed="50" :backSpeed="50" :loop="true" />
             </h1>
             <RoundedPicture src="/images/profile.jpg" alt="David Acosta Laverde" />
-            <div class="text-gray-700 text-lg mx-auto p-2 leading-relaxed max-w-2xl mt-6 text-justify sm:text-justify">
+            <div class="text-gray-300 text-lg mx-auto p-2 leading-relaxed max-w-2xl mt-6 text-justify sm:text-justify">
                 <p v-for="(paragraph, index) in descriptionParagraphs" :key="index">
                     {{ paragraph }}
                 </p>
             </div>
             <div class="mt-6 flex justify-center space-x-4">
-                <a v-for="(social, index) in socials" :key="index" :href="social.src" target="_blank" class="text-gray-900 hover:text-orange-600">
+                <a v-for="(social, index) in socials" :key="index" :href="social.src" target="_blank" class="text-gray-300 hover:text-yellow-400">
                     <img :src="getSocialIconSrc(social.type)" :alt="social.type" class="w-6 h-6">
                 </a>
             </div>
         </div>
         <div id="work" class="py-10">
-            <h2 class="text-2xl font-bold text-gray-900 text-center mb-8">
+            <h2 class="text-2xl font-bold text-gray-300 text-center mb-8">
                 {{ workSubtitle }}
             </h2>
-            <p class="text-gray-700 text-lg mx-auto leading-relaxed max-w-2xl mb-8 text-justify sm:text-justify">
+            <p class="text-gray-300 text-lg mx-auto leading-relaxed max-w-2xl mb-8 text-justify sm:text-justify">
                 {{ workDescription }}
             </p>
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -31,10 +31,10 @@
             </div>
         </div>
         <div id="projects" class="py-10">
-            <h2 class="text-2xl font-bold text-gray-900 text-center mb-8">
+            <h2 class="text-2xl font-bold text-gray-300 text-center mb-8">
                 {{ projectsSubtitle }}
             </h2>
-            <p class="text-gray-700 text-lg mx-auto leading-relaxed max-w-2xl mb-8 text-justify sm:text-justify">
+            <p class="text-gray-300 text-lg mx-auto leading-relaxed max-w-2xl mb-8 text-justify sm:text-justify">
                 {{ projectsDescription }}
             </p>
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -151,3 +151,19 @@ export default {
     }
 };
 </script>
+
+<style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+    font-family: 'Press Start 2P', cursive;
+}
+
+.bg-dark-pattern {
+    background-color: #1a1a1a;
+    background-image: url('/images/game-pattern.png');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+</style>
