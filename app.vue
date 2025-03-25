@@ -107,7 +107,7 @@ export default {
                     this.workSubtitle = workSection.subtitle.find(s => s.language === this.language).content;
                     this.workDescription = workSection.description.find(d => d.language === this.language).content;
 
-                    const projectsSection = data.subtitles.find(sub => sub.subtitle.some(s => s.content.includes('Projects')));
+                    const projectsSection = data.subtitles.find(sub => sub.subtitle.some(s => s.content.includes('Ventures')));
                     this.projectsSubtitle = projectsSection.subtitle.find(s => s.language === this.language).content;
                     this.projectsDescription = projectsSection.description.find(d => d.language === this.language).content;
                 });
