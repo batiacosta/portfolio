@@ -1,54 +1,78 @@
 [
     {
         "title": {
-            "English": "Zeitreise Niederburg",
-            "Español": "Zeitreise Niederburg"
+            "English": "CryptRaider",
+            "Español": "CryptRaider"
         },
         "media": [
             {
                 "type": "youtube",
-                "src": "https://www.youtube.com/embed/aCjdCvAwrUc?si=M39AIxzYCR_-uTob",
+                "src": "https://www.youtube.com/embed/2qlLHRB5nOE?si=6BrJ_uLcWVqsmHq8",
                 "alt": "Project"
             },
             {
                 "type": "image",
-                "src": "/images/projects/mandarscheid/mandarscheid-1.png",
-                "alt": "mandarscheid"
+                "src": "/images/projects/independent-ventures/CryptRaider/Entry.gif",
+                "alt": "Entry"
             },
             {
                 "type": "image",
-                "src": "/images/projects/mandarscheid/mandarscheid-2.png",
-                "alt": "mandarscheid"
+                "src": "/images/projects/independent-ventures/CryptRaider/Hall1.gif",
+                "alt": "Hall"
+            }
+            ,
+            {
+                "type": "image",
+                "src": "/images/projects/independent-ventures/CryptRaider/ClosingTrap.gif",
+                "alt": "Hall"
+            }
+            ,
+            {
+                "type": "image",
+                "src": "/images/projects/independent-ventures/CryptRaider/OpeningTrap.gif",
+                "alt": "Hall"
+            }
+            ,
+            {
+                "type": "image",
+                "src": "/images/projects/independent-ventures/CryptRaider/OpeningLevel2.gif",
+                "alt": "Hall"
+            }
+            ,
+            {
+                "type": "image",
+                "src": "/images/projects/independent-ventures/CryptRaider/FinalStatue.gif",
+                "alt": "Hall"
             }
         ],
         "description": {
-            "English": "Zeitreise Niederburg is an AR experience that takes you back in time to the medieval village of Manderscheid. The project was developed in collaboration with the Manderscheid Castle and the local community. \n\nAs part of ZAUBAR team, I was responsible for developing and maintaining the AR Application, creating mini-games, adding new features, and fixing bugs. The project was developed using Unity Engine, AR Foundation, C#, among other technologies.",
-            "Español": "Zeitreise Niederburg es una experiencia de AR que te lleva de vuelta en el tiempo al pueblo medieval de Manderscheid. El proyecto fue desarrollado en colaboración con el Castillo de Manderscheid y la comunidad local. \n\nComo parte del equipo ZAUBAR, fui responsable de desarrollar y mantener la aplicación de AR, crear mini-juegos, agregar nuevas características y corregir errores. El proyecto fue desarrollado utilizando Unity Engine, AR Foundation, C#, entre otras tecnologías."
+            "English": "CryptRaider is an immersive puzzle-solving adventure set within a mysterious crypt, where players must decipher intricate challenges to unlock the door and escape. Built using Unreal Engine 5, the game combines C++ and Blueprints to deliver a polished experience. It incorporates advanced features such as linetracing for precise interactions, physics-based mechanics, collision meshes for realistic environments, optimized Level of Detail (LODs), and more, reflecting a fusion of technical prowess and creative design. The project’s source code is publicly available on GitHub, alongside compiled release versions for both Mac and Windows, making it accessible for exploration and collaboration.",
+            "Español": "CryptRaider es una aventura inmersiva de resolución de acertijos ambientada en una cripta misteriosa, donde los jugadores deben descifrar desafíos intrincados para desbloquear la puerta y escapar. Construido con Unreal Engine 5, el juego combina C++ y Blueprints para ofrecer una experiencia pulida. Incorpora funciones avanzadas como linetracing para interacciones precisas, mecánicas basadas en física, mallas de colisión para entornos realistas, Niveles de Detalle (LODs) optimizados y más, reflejando una fusión de destreza técnica y diseño creativo. El código fuente del proyecto está disponible públicamente en GitHub, junto con versiones compiladas para Mac y Windows, lo que lo hace accesible para la exploración y la colaboración."
         },
         "summary": {
-            "English": "Zeitreise Niederburg is an AR experience that transports users to medieval Manderscheid. Developed with Manderscheid Castle, I contributed to the AR app's development, mini-games, features, and bug fixes using Unity, AR Foundation, and C#.",
-            "Español": "Zeitreise Niederburg es una experiencia de AR que transporta a los usuarios a la Manderscheid medieval. Desarrollado con el Castillo de Manderscheid, contribuí al desarrollo de la app de AR, mini-juegos, características y corrección de errores usando Unity, AR Foundation y C#."
+            "English": "CryptRaider is a puzzle-solving adventure set in a crypt, built with Unreal Engine 5 using C++ and Blueprints. Players unlock the exit using linetracing, physics, collision meshes, and optimized LODs. The source code and compiled releases for Mac and Windows are available on GitHub",
+            "Español": "CryptRaider es una aventura de resolución de acertijos ambientada en una cripta, construida con Unreal Engine 5 utilizando C++ y Blueprints. Los jugadores desbloquean la salida utilizando linetracing, física, mallas de colisión y LODs optimizados. El código fuente y las versiones compiladas para Mac y Windows están disponibles en GitHub."
         },
         "links":[
             {
-                "type": "other",
-                "src": "https://about.zaubar.com/en/solutions/tourism",
-                "platform": "Project website"
-            },
-            {
-                "type": "android",
-                "src": "https://play.google.com/store/apps/details?id=com.zaubar.mandarscheid&hl=de",
-                "platform": "Android"
+                "type": "github",
+                "src": "https://github.com/batiacosta/CryptRaider",
+                "platform": "Repository"
             },
             {
                 "type": "apple",
-                "src": "https://apps.apple.com/de/app/zeitreise-niederburg/id6443941752?platform=iphone",
-                "platform": "iOS"
+                "src": "https://github.com/batiacosta/CryptRaider/releases/tag/Alpha",
+                "platform": "MacOS"
+            },
+            {
+                "type": "windows",
+                "src": "https://github.com/batiacosta/CryptRaider/releases/tag/Alpha",
+                "platform": "Windows"
             }
         ],
         "tags": {
-            "English": ["Published", "AR", "Unity", "C#", "AR Foundation", "Contribution"],
-            "Español": ["Publicado", "AR", "Unity", "C#", "AR Foundation", "Contribución"]
+            "English": [ "Unreal Engine", "UE5", "C++", "Game Development", "Public Repository"],
+            "Español": ["Unreal Engine", "UE5", "C++", "Desarrollo de Juegos", "Repositorio Público"]
         }
     },
     {
