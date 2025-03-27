@@ -77,44 +77,45 @@
     },
     {
         "title": {
-            "English": "FreiBuddy",
-            "Español": "FreiBuddy"
+            "English": "Apples Catcher",
+            "Español": "Apples Catcher"
         },
         "media": [
             {
+                "type": "youtube",
+                "src": "https://www.youtube.com/embed/Xf2Q_bzk7Qg?si=8aauP6Bjz2btnUhY",
+                "alt": "Video"
+            },
+            {
                 "type": "image",
-                "src": "/images/projects/freibuddy/freibuddy-1.png",
+                "src": "/images/projects/independent-ventures/ApplesCatcher/applesCatcher.gif",
                 "alt": "Freibuddy"
             },
             {
                 "type": "image",
-                "src": "/images/projects/freibuddy/freibuddy-2.png",
+                "src": "/images/projects/independent-ventures/ApplesCatcher/start.png",
                 "alt": "Freibuddy"
-            },
+            }
+            ,
             {
                 "type": "image",
-                "src": "/images/projects/freibuddy/freibuddy-3.png",
+                "src": "/images/projects/independent-ventures/ApplesCatcher/win.png",
                 "alt": "Freibuddy"
             }
         ],
         "description": {
-            "English": "As part of the development team at ZAUBAR for the \"FreiBuddy\" app, I played a key role in enhancing the user experience by implementing accessibility features, while also making game adjustments, fixing bugs, and adding media and behaviors. \n\nThis AR-Serious Game, developed in collaboration with the Documentation Centre for National Socialism (DZNS) of the Freiburg Municipal Museums, offers three interactive augmented reality (AR) routes that provide insights into the past and present of Jewish life in Freiburg. My contributions ensured that the app was accessible and user friendly.\n\nThe \"FreiBuddy\" app invites players to explore the city of Freiburg through the eyes of fictitious guests, engaging in dialogues and small tasks to learn about Jewish life in a playful and educational manner. The app, which can be used on-site in Freiburg city centre, is designed to be used in groups, fostering discussion and deeper understanding. This participatory project, funded by the Foundation \"Remembrance, Responsibility, Future\" and the Baden-Württemberg State Centre for Political Education, showcases my ability to deliver high-quality, impactful AR experiences.",
-            "Español": "Como parte del equipo de desarrollo en ZAUBAR para la aplicación \"FreiBuddy\", desempeñé un papel clave en la mejora de la experiencia del usuario mediante la implementación de funciones de accesibilidad, al tiempo que realizaba ajustes en el juego, corregía errores y añadía medios y comportamientos. \n\nEste AR-Serious Game, desarrollado en colaboración con el Centro de Documentación del Nacionalsocialismo (DZNS) de los Museos Municipales de Friburgo, ofrece tres rutas interactivas de realidad aumentada (AR) que proporcionan información sobre el pasado y el presente de la vida judía en Friburgo. Mis contribuciones aseguraron que la aplicación fuera accesible y fácil de usar.\n\nLa aplicación \"FreiBuddy\" invita a los jugadores a explorar la ciudad de Friburgo a través de los ojos de huéspedes ficticios, participando en diálogos y pequeñas tareas para aprender sobre la vida judía de una manera lúdica y educativa. La aplicación, que se puede utilizar en el centro de la ciudad de Friburgo, está diseñada para ser utilizada en grupos, fomentando la discusión y el entendimiento más profundo. Este proyecto participativo, financiado por la Fundación \"Recuerdo, Responsabilidad, Futuro\" y el Centro Estatal de Educación Política de Baden-Wurtemberg, muestra mi capacidad para ofrecer experiencias de AR de alta calidad e impacto."
+            "English": "Apples catcher is a game developed in Phaser JS in a Vite setup. The project is meant to explore the capabilities of the Phaser JS framework and the Vite bundler. The game is a simple 2D game where the player controls a basket to catch falling apples. The game has a start screen, a game screen, and a win screen.",
+            "Español": "Apples catcher es un juego desarrollado en Phaser JS en un entorno de Vite. El proyecto tiene como objetivo explorar las capacidades del framework Phaser JS y el empaquetador Vite. El juego es un juego 2D simple en el que el jugador controla una cesta para atrapar manzanas que caen. El juego tiene una pantalla de inicio, una pantalla de juego y una pantalla de victoria."
         },
         "summary": {
-            "English": "I enhanced the \"FreiBuddy\" AR app by implementing accessibility features, game adjustments, bug fixes, and adding media. The app educates users about Jewish life in Freiburg through interactive AR routes.",
-            "Español": "Mejoré la aplicación AR \"FreiBuddy\" mediante la implementación de funciones de accesibilidad, ajustes en el juego, corrección de errores y añadiendo medios. La aplicación educa a los usuarios sobre la vida judía en Friburgo a través de rutas AR interactivas."
+            "English": "Apples Catcher is a 2D game developed in Phaser JS using a Vite setup. Players control a basket to catch falling apples, with start and win screens included.",
+            "Español": "Apples Catcher es un juego 2D desarrollado en Phaser JS utilizando un entorno de Vite. Los jugadores controlan una cesta para atrapar manzanas que caen, con pantallas de inicio y victoria incluidas."
         },
         "links":[
             {
-                "type": "android",
-                "src": "https://play.google.com/store/apps/details?id=com.zaubar.freiburg&hl=en",
-                "platform": "Android"
-            },
-            {
-                "type": "apple",
-                "src": "https://apps.apple.com/de/app/freibuddy/id6447895903",
-                "platform": "iOS"
+                "type": "github",
+                "src": "https://github.com/batiacosta/AppleCatcher",
+                "platform": "Repository"
             }
         ],
         "tags": {
