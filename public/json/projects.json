@@ -116,11 +116,74 @@
                 "type": "github",
                 "src": "https://github.com/batiacosta/AppleCatcher",
                 "platform": "Repository"
+            },
+            {
+                "type": "web",
+                "src": "https://octe.itch.io/apples-catcher",
+                "platform": "Playable Demo"
             }
         ],
         "tags": {
             "English": ["Published", "AR", "Unity", "C#", "AR Foundation", "Contribution"],
             "Español": ["Publicado", "AR", "Unity", "C#", "AR Foundation", "Contribución"]
+        }
+    }
+    ,
+    {
+        "title": {
+            "English": "Flappy-Bird",
+            "Español": "Flappy-Bird"
+        },
+        "media": [
+            {
+                "type": "youtube",
+                "src": "https://www.youtube.com/embed/___RZsBrSzU?si=N4VwuFCR_qWh4oPi",
+                "alt": "Video flappyBird"
+            },
+            {
+                "type": "image",
+                "src": "/images/projects/independent-ventures/Flappy-Bird/flappyBird.gif",
+                "alt": "flappyBird"
+            },
+            {
+                "type": "image",
+                "src": "/images/projects/independent-ventures/Flappy-Bird/mainMenu.png",
+                "alt": "flappyBird"
+            },
+            {
+                "type": "image",
+                "src": "/images/projects/independent-ventures/Flappy-Bird/inGame.png",
+                "alt": "flappyBird"
+            },
+            {
+                "type": "image",
+                "src": "/images/projects/independent-ventures/Flappy-Bird/gameOver.png",
+                "alt": "flappyBird"
+            }
+        ],
+        "description": {
+            "English": "Flappy-Bird is a game developd in Unity 6 using C#. The game is a clone of the original Flappy Bird game. The game has a start screen, a game screen, and a game over screen. you can play the game using tap if you are in a mobile device or using space if you are in a computer. The game has a score system that increases the score when the player passes through the pipes.",
+            "Español": "Flappy-Bird es un juego desarrollado en Unity 6 utilizando C#. El juego es un clon del juego original Flappy Bird. El juego tiene una pantalla de inicio, una pantalla de juego y una pantalla de game over. Puedes jugar el juego usando tap si estás en un dispositivo móvil o usando espacio si estás en una computadora. El juego tiene un sistema de puntuación que aumenta la puntuación cuando el jugador pasa a través de las tuberías."
+        },
+        "summary": {
+            "English": "Flappy-Bird, developed in Unity 6 using C#, is a clone of the original Flappy Bird game. It features a start screen, game screen, and game over screen, with controls for mobile (tap) and computer (space). The game includes a scoring system that increases when the player passes through pipes.",
+            "Español": "Flappy-Bird, desarrollado en Unity 6 con C#, es un clon del juego original Flappy Bird. Cuenta con una pantalla de inicio, pantalla de juego y pantalla de fin de juego, con controles para móviles (tocar) y computadora (barra espaciadora). El juego incluye un sistema de puntuación que aumenta cuando el jugador pasa a través de los tubos."
+        },
+        "links":[
+            {
+                "type": "github",
+                "src": "https://github.com/batiacosta/Flappy-Bird",
+                "platform": "Repository"
+            },
+            {
+                "type": "web",
+                "src": "https://play.unity.com/en/games/f782ca4c-16c4-40c6-953f-93b1ac041710/flappy-bird",
+                "platform": "Playable Demo (mobile and desktop)"
+            }
+        ],
+        "tags": {
+            "English": ["Unity 6", "C#", "Game Development", "Public Repository"],
+            "Español": ["Unity 6", "C#", "Desarrollo de Juegos", "Repositorio Público"]
         }
     }
 ]
