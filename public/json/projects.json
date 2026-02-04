@@ -77,6 +77,63 @@
     },
     {
         "title": {
+            "English": "Action Platformer Party",
+            "Español": "Action Platformer Party"
+        },
+        "media": [
+            {
+                "type": "image",
+                "src": "/images/projects/independent-ventures/ActionPlatformer/Fight.gif",
+                "alt": "Project"
+            },
+            {
+                "type": "image",
+                "src": "/images/projects/independent-ventures/ActionPlatformer/Screenshot.png",
+                "alt": "Project"
+            },
+            {
+                "type": "image",
+                "src": "/images/projects/independent-ventures/ActionPlatformer/Jetpack.gif",
+                "alt": "Project"
+            },
+            {
+                "type": "image",
+                "src": "/images/projects/independent-ventures/ActionPlatformer/bullets.gif",
+                "alt": "Project"
+            },
+            {
+                "type": "image",
+                "src": "/images/projects/independent-ventures/ActionPlatformer/Splats.gif",
+                "alt": "Project"
+            }
+        ],
+        "description": {
+            "English": "This Action Platformer Party is a demo about killing as many enemies as you can before they kill you. This game is developed in Unity Engine, making use of resources like Audio Mixer for SFX and Music channels, Cinemachine for screenshaking and following player, and the Input System to map player actions.",
+            "Español": "Este Action Platformer Party es una demo sobre eliminar la mayor cantidad de enemigos posible antes de que ellos te eliminen a ti. Este juego está desarrollado en Unity Engine, haciendo uso de recursos como Audio Mixer para los canales de efectos de sonido (SFX) y música, Cinemachine para el movimiento de cámara y seguimiento del jugador, y el Input System para mapear las acciones del jugador."
+        },
+        "summary": {
+            "English": "This Action Platformer Party is a demo about killing as many enemies as you can before they kill you. This game is developed in Unity Engine, making use of resources like Audio Mixer for SFX and Music channels, Cinemachine for screenshaking and following player, and the Input System to map player actions.",
+            "Español": "Este Action Platformer Party es una demo sobre eliminar la mayor cantidad de enemigos posible antes de que ellos te eliminen a ti. Este juego está desarrollado en Unity Engine, haciendo uso de recursos como Audio Mixer para los canales de efectos de sonido (SFX) y música, Cinemachine para el movimiento de cámara y seguimiento del jugador, y el Input System para mapear las acciones del jugador."
+        },
+        "links":[
+            {
+                "type": "github",
+                "src": "https://github.com/batiacosta/ActionPlatformer",
+                "platform": "Repository"
+            },
+            {
+                "type": "web",
+                "src": "https://play.unity.com/api/v1/games/game/5da38c43-c314-4483-b591-c95174bbe60b/build/latest/frame",
+                "platform": "MacOS"
+            }
+        ],
+        "tags": {
+            "English": [ "Unreal Engine", "UE5", "C++", "Game Development", "Public Repository"],
+            "Español": ["Unreal Engine", "UE5", "C++", "Desarrollo de Juegos", "Repositorio Público"]
+        }
+    },
+    {
+        "title": {
             "English": "Apples Catcher",
             "Español": "Apples Catcher"
         },
