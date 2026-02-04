@@ -124,12 +124,12 @@
             {
                 "type": "web",
                 "src": "https://play.unity.com/api/v1/games/game/5da38c43-c314-4483-b591-c95174bbe60b/build/latest/frame",
-                "platform": "MacOS"
+                "platform": "WebGL"
             }
         ],
         "tags": {
-            "English": [ "Unreal Engine", "UE5", "C++", "Game Development", "Public Repository"],
-            "Español": ["Unreal Engine", "UE5", "C++", "Desarrollo de Juegos", "Repositorio Público"]
+            "English": [ "Unity Engine", "Unity", "Platformer", "Game Development", "Public Repository", "WebGL"],
+            "Español": ["Unity Engine", "Unity", "Platformer", "Desarrollo de Juegos", "Repositorio Público", "WebGL"]
         }
     },
     {
